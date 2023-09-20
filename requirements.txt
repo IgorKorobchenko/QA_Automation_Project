@@ -21,3 +21,5 @@ trio-websocket==0.10.4
 urllib3==2.0.4
 webdriver-manager==4.0.0
 wsproto==1.2.0
+
+Faker~=19.6.0
