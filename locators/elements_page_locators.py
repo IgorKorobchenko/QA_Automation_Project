@@ -14,3 +14,12 @@ class TextBoxLocators:
     CREATED_EMAIL = (By.XPATH, "//p[@id='email']")
     CREATED_CURRENT_ADDRESS = (By.XPATH, "//p[@id='currentAddress']")
     CREATED_PERMANENT_ADDRESS = (By.XPATH, "//p[@id='permanentAddress']")
+
+
+class CheckBoxPageLocators:
+    EXPAND_ALL_BTN = (By.XPATH, "//button[@aria-label='Expand all']")
+    COLLAPSE_ALL_BTN = (By.XPATH, "//button[@aria-label='Collapse all']")
+    ITEM_LIST = (By.XPATH, "//span[@class='rct-checkbox']")
+    CHECKED_ITEMS = (By.XPATH, "//*[@class='rct-icon rct-icon-check']")
+    TITLE_ITEM = (".//ancestor::span[@class='rct-text']")
+    OUTPUT_RESULT = (By.XPATH, "//span[@class='text-success']")
